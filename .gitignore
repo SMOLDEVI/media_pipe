@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Rust build artifacts
+target/
+gui/target/
+*.pdb
+
+# Word temporary lock files
+~$*.docx
+~$*.doc
+
+# Archives and large temporary files
+*.7z
+*.zip
+*.tar.gz
+*.tmp
+
+# VS Code and IDEs
+.vscode/
+.idea/
